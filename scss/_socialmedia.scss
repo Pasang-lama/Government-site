@@ -1,0 +1,52 @@
+.social-media-links {
+  margin-top: 50px;
+  .col-lg-3 {
+    width: 32%;
+    box-shadow: 2px 2px 2px #a09d9d;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-radius: 10px;
+  }
+  .twitter {
+    height: 532px;
+    overflow: auto;
+    padding-top: 10px;
+  }
+  h5{
+      font-size: 18px;
+      font-weight: 500;
+      font-family: "Roboto Slab", serif;
+      color: #404040;
+      text-transform: uppercase;
+  }
+  .image{
+      img{
+          width: 80%;
+      }
+  }
+  .imgae-des-links {
+      margin-top: 20px;
+    a {
+      text-decoration: none;
+      color: #21759b;
+      font-weight: 600;
+      font-size: 13px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .carousel {
+    position: relative;
+    width: 80%;
+    margin-left: 20px;
+}
+  .carousel-item {
+      img{
+          height: 200px;
+          width: 400px;
+      }
+  }
+ 
+}

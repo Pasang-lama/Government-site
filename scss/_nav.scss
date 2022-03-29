@@ -1,0 +1,33 @@
+nav{
+    background-color:#093D63 ;
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            padding: 10px;
+            color: white;
+            font-weight: 600;
+            line-height: 40px;
+            i{
+                font-size: 14px;
+                margin-left: 5px;
+            }
+            &:hover{
+                background-color: #21759B;
+            }
+        }
+        .home{
+            background-color: #21759B !important;
+        }
+        .bgc{
+            i{
+                font-size: 18px !important;
+            }
+        }
+    }
+}
+.stickynab-bar{
+    z-index: 9999;
+    position: fixed;
+    animation: 5s;
+}
